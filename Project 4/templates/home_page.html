@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block title %}
+{% endblock %}
+{% block content %}
+    <h1 >Welcome!!</h1>
+    <h2 id="PleaseSelect" >Please select one of the options below to uncover the secrets of your health:</h2>
+    <div class="button-container">
+    <button id="BigButton" type="button" class="btn btn-info btn-circle btn-xl" onclick="window.location.href='/Metrics'">Test your health metrics</button> 
+    <button id="BigButton" type="button" class="btn btn-info btn-circle btn-xl" onclick="window.location.href='/Predictor'">Diabetes predictor</button> 
+    <button id="BigButton" type="button" class="btn btn-info btn-circle btn-xl" onclick="window.location.href='/Information'">View health information</button> 
+    </div>
+    {% endblock %}
+
